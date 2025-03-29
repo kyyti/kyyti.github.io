@@ -5,13 +5,11 @@
 /* Global */
 
 :root {
-  --primary-color: #ffffff;
-  --secondary-color: #ffffff;
-  --complimentary-color: #23CE6B;
-  --header-color: #E5E7EB;
-  --header-text-color: #000000;
-  --dark-theme: #121212;
-  /* f2f2f2  F6FEFA 23CE6B */
+	--primary-color: #ffffff; /* Example primary color */
+	--text-color: #000000; /* Example text color */
+	--accent-color: #6d8fff; /* Example accent color */
+	--secondary-color: #e4e4e4; /* Example secondary color */
+	--button-text-color: #000000; /* Example button text color */
 }
 
 body {
