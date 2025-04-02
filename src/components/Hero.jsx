@@ -3,10 +3,10 @@ import hero from "../assets/hero.jpg";
 const Hero = () => {
   return (
     <section className="bg-[var(--primary-color)] text-[var(--text-color)]">
-      <div className="container flex flex-col justify-center p-2 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+      <div className="container flex flex-col justify-center p-2 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:gap-60">
         <div className="flex flex-col justify-center p-2 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
           <h1 className="text-5xl font-bold leading-none sm:text-6xl whitespace-pre-line">
-            Löydä matkasi. {"\n"}Jaa kyyti. {"\n"}Säästä rahaa.
+            Löydä matkasi. {"\n"}Jaa kyyti. {"\n"}Säästä.
           </h1>
           <p className="mt-6 mb-8 text-lg sm:mb-12">
             Dictum aliquam porta in condimentum ac integer
@@ -21,7 +21,7 @@ const Hero = () => {
           <img
             src={hero}
             alt=""
-            className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+            className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 rounded-2xl"
           />
         </div>
       </div>

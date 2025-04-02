@@ -1,3 +1,7 @@
+import location from "../assets/SVG/location.svg";
+import browse from "../assets/SVG/browse.svg";
+import communicate from "../assets/SVG/communicate.svg";
+
 const Steps = () => {
   return (
     <section className="p-6 bg-[var(--primary-color)] text-[var(--text-color)]">
@@ -11,30 +15,37 @@ const Steps = () => {
         </h2>
 
         <div className="grid gap-6 my-16 lg:grid-cols-3">
-          <div className="flex flex-col p-8 space-y-4 rounded-md bg-[var(--secondary-color)] text-[var(--text-color)] shadow-lg">
+          <div className="flex flex-col p-8 space-y-4 rounded-md text-[var(--text-color)]">
             <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full bg-[var(--accent-color)] text-[var(--button-text-color)]">
-              1
+              <img src={browse} alt="1" className="w-10 h-10" />
             </div>
             <p className="text-2xl">
-              <b>Nulla.</b>Nostrum, corrupti blanditiis. Illum, architecto?
+              Selaa kyytejä
+            </p>
+            <p className="text-lg ">
+              Valitse lähtöpaikka ja määränpää sovelluksessa. Näet tarjolla olevat kyydit ja kuljettajien profiilit. Valitse itsellesi sopivin vaihtoehto.
             </p>
           </div>
-          <div className="flex flex-col p-8 space-y-4 rounded-md bg-[var(--secondary-color)] text-[var(--text-color)] shadow-lg">
+          <div className="flex flex-col p-8 space-y-4 rounded-md text-[var(--text-color)]">
             <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full bg-[var(--accent-color)] text-[var(--button-text-color)]">
-              2
+              <img src={communicate} alt="1" className="w-10 h-10" />
             </div>
             <p className="text-2xl">
-              <b>Accusantium.</b>Vitae saepe atque neque sunt eius dolor veniam
-              alias debitis?
+              Varaa kyyti
+            </p>
+            <p className="text-lg ">
+              Varaa valitsemasi kyyti. Kuljettaja vahvistaa varauksesi ja voit keskustella sekä tutustua kuljettajaan sovelluksen kautta.
             </p>
           </div>
-          <div className="flex flex-col p-8 space-y-4 rounded-md bg-[var(--secondary-color)] text-[var(--text-color)] shadow-lg">
+          <div className="flex flex-col p-8 space-y-4 rounded-md text-[var(--text-color)]">
             <div className="flex items-center justify-center flex-shrink-0 w-12 h-12 text-xl font-bold rounded-full bg-[var(--accent-color)] text-[var(--button-text-color)]">
-              3
+              <img src={location} alt="3" className="w-10 h-10" />
             </div>
             <p className="text-2xl">
-              <b>Maxime.</b>Expedita temporibus culpa reprehenderit doloribus
-              consectetur odio!
+              Nauti matkasta
+            </p>
+            <p className="text-lg ">
+              Tapaa kuljettaja sovitussa paikassa ja nauti edullisesta ja ympäristöystävällisestä matkasta määränpäähäsi.
             </p>
           </div>
         </div>
